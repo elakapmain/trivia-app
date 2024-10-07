@@ -13,7 +13,11 @@ onMounted(async () => {
 
 <template>
     <BaseTitle>TRIVIA APPLICATION</BaseTitle>
-    <div v-for="category in categories" :key="category.id">
-        {{ category.name }}
+    <div class="grid flex-grow grid-cols-4">
+        <div v-for="category in categories" :key="category.id">
+            {{ category.name }}
+        </div>
     </div>
+
+    
 </template>
