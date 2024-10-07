@@ -2,6 +2,5 @@
 </script>
 
 <template>
-  <NavMenu />
   <RouterView />
 </template>
